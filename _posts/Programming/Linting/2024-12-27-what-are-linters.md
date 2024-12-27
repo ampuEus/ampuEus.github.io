@@ -13,7 +13,7 @@ math: false
 mermaid: false
 comments: false
 image:
-  path: /assets/img/others/pc_code-ia.jpg
+  path: /assets/img/others/pc_code-ia.webp
   # lqip:
   # alt:
 ---
