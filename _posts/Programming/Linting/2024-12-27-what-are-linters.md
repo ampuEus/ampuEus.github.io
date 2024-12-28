@@ -18,7 +18,7 @@ image:
   # alt:
 ---
 
-> This article often interprets the term "linter" in a wide sense, to include resources for SAST (Static Application Security Testing), SCA (Source Code Analysis), memory management validators, code formatters, and style guides.
+> This article often interprets the term *linter* in a wide sense, to include resources for SAST (Static Application Security Testing), SCA (Source Code Analysis), memory management validators, code formatters, and style guides.
 {: .prompt-info}
 
 In this article you will know about what a linter and code formatter are, how they work, why are they useful, differences between static and dynamic code analysis and finally see how to implement them in a basic C project.
