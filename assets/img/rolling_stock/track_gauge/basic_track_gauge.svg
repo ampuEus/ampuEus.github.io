@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="870.29724"
+   height="158.58363"
+   version="1.1"
+   viewBox="0 0 870.29725 158.58363"
+   id="svg64"
+   sodipodi:docname="basic_track_gauge.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs68" />
+  <sodipodi:namedview
+     id="namedview66"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     showgrid="false"
+     inkscape:zoom="0.92135942"
+     inkscape:cx="445.53731"
+     inkscape:cy="207.30238"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-1928"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g4759"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <g
+     id="g4759"
+     transform="translate(-0.35137367,-349.48497)">
+    <rect
+       x="0.84000367"
+       y="349.9736"
+       width="869.32001"
+       height="157.60637"
+       rx="11.46"
+       ry="12"
+       style="font-variation-settings:normal;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.977;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:1.6197;paint-order:markers fill stroke;stop-color:#000000;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect2" />
+    <path
+       d="M 76.4,437.77 H 793.9"
+       style="font-variation-settings:normal;fill:none;stroke:#000000;stroke-width:2;stroke-linejoin:round;-inkscape-stroke:none;stop-color:#000000"
+       id="path4" />
+    <path
+       d="M 76.4,448.4 V 412.135"
+       style="font-variation-settings:normal;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;stop-color:#000000"
+       id="path6" />
+    <path
+       d="m 52.02,396.37 h 17.8 c 4.0098,0 7.1394,3.2274 7.1394,7.1883 v 8.4108 c 0,3.9609 -5.379,6.5037 -8.1663,7.1883 -2.7384,0.6846 -3.423,2.0049 -3.3741,3.6675 l 1.2225,32.763 c 0.0978,2.1027 2.2005,4.1565 4.2543,4.5477 l 19.853,4.4988 c 1.467,0.2934 2.8362,1.8582 2.8362,3.2763 v 4.6455 H 28.254 v -5.0367 c 0,-1.2714 1.2714,-2.5917 2.5428,-2.8362 l 20.391,-4.5477 c 2.0538,-0.4401 3.912,-2.7384 4.0098,-4.7922 l 1.2225,-32.519 c 0,-1.6626 -0.6846,-2.9829 -3.423,-3.6675 -2.7384,-0.6846 -8.313,-3.2274 -8.313,-7.1394 v -8.4597 c 0,-3.9609 3.3252,-7.1883 7.335,-7.1883 z"
+       style="fill:#999999;stroke-width:0.489"
+       id="path8" />
+    <path
+       d="M 793.9,448.4 V 412.135"
+       style="font-variation-settings:normal;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;stop-color:#000000"
+       id="path10" />
+    <path
+       d="m 800.71,396.37 h 17.8 c 4.0098,0 7.1394,3.2274 7.1394,7.1883 v 8.4108 c 0,3.9609 -5.379,6.5037 -8.1663,7.1883 -2.7384,0.6846 -3.423,2.0049 -3.3741,3.6675 l 1.2225,32.763 c 0.098,2.1027 2.2005,4.1565 4.2543,4.5477 l 19.854,4.4988 c 1.467,0.2934 2.8362,1.8582 2.8362,3.2763 v 4.6455 h -65.331 v -5.0367 c 0,-1.2714 1.2714,-2.5917 2.5428,-2.8362 l 20.391,-4.5477 c 2.0538,-0.4401 3.912,-2.7384 4.0098,-4.7922 l 1.2225,-32.519 c 0,-1.6626 -0.6846,-2.9829 -3.423,-3.6675 -2.7384,-0.6846 -8.313,-3.2274 -8.313,-7.1394 v -8.4597 c 0,-3.9609 3.3252,-7.1883 7.335,-7.1883 z"
+       style="fill:#999999;stroke-width:0.489"
+       id="path12" />
+    <text
+       x="435.63995"
+       y="423.70984"
+       style="font-weight:bold;font-size:26.667px;line-height:100%;font-family:'Liberation Sans';text-align:center;text-decoration-line:none;text-decoration-color:#000000;word-spacing:0px;text-anchor:middle;fill:#000000;stroke-width:1px;-inkscape-stroke:none;stop-color:#000000"
+       xml:space="preserve"
+       id="text18"><tspan
+         x="435.63995"
+         y="423.70984"
+         id="tspan14">Track gauge distance</tspan><tspan
+         x="435.63995"
+         y="450.37653"
+         id="tspan16" /></text>
+  </g>
+</svg>
