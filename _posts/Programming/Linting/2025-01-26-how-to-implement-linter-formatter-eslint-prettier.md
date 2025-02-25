@@ -57,6 +57,7 @@ pnpm add --save-dev eslint @eslint/js # Install ESLint
 pnpm add --save-dev typescript-eslint # Add ESLint's TypeScript plugin if you use it
 pnpm add --save-dev prettier # Install prettier
 pnpm add --save-dev eslint-config-prettier # Help turning off all ESLint rules that conflict with Prettier
+pnpm add --save-dec eslint-plugin-prettier # Help running Prettier as an ESLint rule
 ```
 
 > Note that `eslint-config-prettier` config only turns rules off, so it only makes sense using it together with some other config.
