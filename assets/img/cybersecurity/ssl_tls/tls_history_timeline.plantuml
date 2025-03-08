@@ -1,0 +1,41 @@
+@startgantt SSL/TLS timeline
+<style>
+note {
+BackgroundColor white
+LineColor black
+}
+</style>
+
+projectscale yearly zoom 0.5
+scale 0.8
+
+title SSL and TLS protocols: History and development
+Project starts 1995-01-01
+
+!$deprecated_color = "#fdb3ab"
+!$old_color = "#fef8c6"
+!$current_color = "#d4f4b4"
+
+-- Netscape as developer --
+[SSL v2 | deprecated - RFC 6176] as [SSLv2] starts 1995-02-01 and ends 2011-03-01
+note bottom
+  SSL v1 was never released for security reasons
+end note
+[SSL v3 | released - RFC 6101 | deprecated - RFC 7568] as [SSLv3] starts 1996-11-18 and ends 2015-06-01
+
+[SSLv2] is colored in $deprecated_color
+[SSLv3] is colored in $deprecated_color
+
+-- IETF as developer --
+[TLS v1 | released  - RFC 2256 | deprecated - RFC 8996] as [TLSv1] starts 1999-01-01 and ends 2021-03-01
+[TLS v1.1 | released  - RFC 4346 | deprecated - RFC 8996] as [TLSv1.1]  starts 2006-04-01 and ends 2021-03-01
+[TLS v1.2 | released  - RFC 5246] as [TLSv1.2] starts 2008-08-01 and ends 2024-01-01
+[TLS support for SSL discontinued (RFC 6176)] happens at 2011-03-01
+[TLS v1.3 | released  - RFC 8446] as [TLSv1.3] starts 2018-08-01 and ends 2024-01-01
+
+[TLSv1] is colored in $deprecated_color
+[TLSv1.1] is colored in $deprecated_color
+[TLSv1.2] is colored in $old_color
+[TLSv1.3] is colored in $current_color
+@endgantt
+

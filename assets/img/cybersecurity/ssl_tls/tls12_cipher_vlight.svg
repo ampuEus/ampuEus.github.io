@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="227.10617mm"
+   height="52.327404mm"
+   viewBox="0 0 227.10617 52.327404"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.4 (e7c3feb, 2024-10-09)"
+   sodipodi:docname="tls12_cipher.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.0595392"
+     inkscape:cx="368.55644"
+     inkscape:cy="144.4024"
+     inkscape:window-width="1920"
+     inkscape:window-height="1029"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g52402-8"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-bottom="5"
+     fit-margin-right="5"
+     inkscape:showpageshadow="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(3.2512869,-30.857996)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:9.87778px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="3.3577337"
+       y="56.857311"
+       id="text1974"><tspan
+         sodipodi:role="line"
+         id="tspan1972"
+         style="font-size:9.87778px;stroke-width:0.264583"
+         x="3.3577337"
+         y="56.857311"><tspan
+   style="font-size:9.87778px;fill:#0bcb5d;fill-opacity:1"
+   id="tspan6080">TLS</tspan>_<tspan
+   style="font-size:9.87778px;fill:#0bcb5d;fill-opacity:1"
+   id="tspan17720">DHE</tspan>_<tspan
+   style="font-size:9.87778px;fill:#0bcb5d;fill-opacity:1"
+   id="tspan24788">RSA</tspan>_WITH_AES_256_CBC_<tspan
+   style="font-size:9.87778px;fill:#0bcb5d;fill-opacity:1"
+   id="tspan26644">SHA256</tspan></tspan></text>
+    <g
+       style="fill:none"
+       id="g52402-8"
+       transform="matrix(1.3443631,0,0,1.3443631,-7.30355,74.627453)">
+      <path
+         d="m 8.8624313,-10.533598 c 0,0.7660685 0.6209829,1.3870517 1.3870517,1.3870517 h 2.548361 c 0.339273,0 0.508909,0 0.668559,0.038352 0.141479,0.033983 0.276786,0.09002 0.400927,0.1660301 0.139954,0.085789 0.259934,0.2057692 0.499825,0.4456598 l 0.73701,0.73701 0.73701,-0.73701 c 0.23989,-0.2398906 0.35987,-0.3598706 0.499824,-0.4456598 0.124141,-0.07601 0.25942,-0.1320473 0.400955,-0.1660301 0.159629,-0.038352 0.329258,-0.038352 0.668517,-0.038352 h 2.548375 c 0.766048,0 1.387052,-0.6209832 1.387052,-1.3870517"
+         stroke="#000000"
+         stroke-width="1.38705"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path52393-3"
+         style="stroke-width:1.11577;stroke-miterlimit:4;stroke-dasharray:none" />
+      <path
+         d="m 45.61832,-10.533598 c 0,0.7660684 0.620983,1.3870516 1.387052,1.3870516 h 2.548361 c 0.339273,0 0.508909,0 0.668559,0.038352 0.141479,0.033983 0.276786,0.09002 0.400927,0.1660301 0.139954,0.085789 0.259934,0.2057692 0.499825,0.4456598 l 0.73701,0.73701 0.73701,-0.73701 c 0.23989,-0.2398906 0.35987,-0.3598706 0.499824,-0.4456598 0.124141,-0.07601 0.25942,-0.1320473 0.400955,-0.1660301 0.159629,-0.038352 0.329258,-0.038352 0.668517,-0.038352 h 2.548375 c 0.766048,0 1.387052,-0.6209832 1.387052,-1.3870516"
+         stroke="#000000"
+         stroke-width="1.38705"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path52393-3-9"
+         style="fill:none;stroke-width:1.11577;stroke-miterlimit:4;stroke-dasharray:none" />
+      <path
+         d="m 142.30111,-10.533598 c 0,0.7660684 0.62099,1.3870516 1.38706,1.3870516 h 10.02712 c 0.33927,0 0.50891,0 0.66856,0.038352 0.14147,0.033983 0.27678,0.09002 0.40092,0.1660301 0.13996,0.085789 0.21562,0.260398 0.49983,0.4456598 l 0.73701,0.73701 0.73701,-0.73701 c 0.23989,-0.2398903 0.35987,-0.3598706 0.49982,-0.4456598 0.12414,-0.07601 0.25942,-0.1320473 0.40096,-0.1660301 0.15963,-0.038352 0.32925,-0.038352 0.66851,-0.038352 h 8.84628 c 0.76605,0 1.38705,-0.6209832 1.38705,-1.3870516"
+         stroke="#000000"
+         stroke-width="1.38705"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path52393-3-9-6"
+         style="fill:none;stroke-width:1.11577;stroke-miterlimit:4;stroke-dasharray:none"
+         sodipodi:nodetypes="cssscscscsssc" />
+      <path
+         d="m 39.382533,-20.369068 c 0,-0.766069 -0.620983,-1.387052 -1.387052,-1.387052 H 35.44712 c -0.339273,0 -0.508909,0 -0.668559,-0.03835 -0.141479,-0.03398 -0.276786,-0.09002 -0.400927,-0.16603 -0.139954,-0.08579 -0.259934,-0.205769 -0.499825,-0.44566 l -0.73701,-0.73701 -0.73701,0.73701 c -0.23989,0.239891 -0.35987,0.359871 -0.499824,0.44566 -0.124141,0.07601 -0.25942,0.132047 -0.400955,0.16603 -0.159629,0.03835 -0.329258,0.03835 -0.668517,0.03835 h -2.548375 c -0.766048,0 -1.387052,0.620983 -1.387052,1.387052"
+         stroke="#000000"
+         stroke-width="1.38705"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path52393-3-3"
+         style="fill:none;stroke-width:1.11577;stroke-miterlimit:4;stroke-dasharray:none" />
+      <path
+         d="m 135.13292,-20.369068 c 0,-0.766069 -0.62098,-1.387052 -1.38705,-1.387052 H 114.2719 c -0.33927,0 -0.50891,0 -0.66856,-0.03835 -0.14148,-0.03398 -0.27679,-0.09002 -0.40093,-0.16603 -0.13995,-0.08579 -0.21561,-0.260398 -0.49982,-0.44566 l -0.737,-0.73701 -0.73701,0.73701 c -0.23989,0.239891 -0.35987,0.359871 -0.49983,0.44566 -0.12414,0.07601 -0.25942,0.132047 -0.40095,0.16603 -0.15963,0.03835 -0.32926,0.03835 -0.66852,0.03835 H 91.759788 c -0.766048,0 -1.387056,0.620983 -1.387056,1.387052"
+         stroke="#000000"
+         stroke-width="1.38705"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path52393-3-3-2"
+         style="fill:none;stroke-width:1.11577;stroke-miterlimit:4;stroke-dasharray:none"
+         sodipodi:nodetypes="cssscscsccssc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="12.967052"
+       y="70.300812"
+       id="text54285"><tspan
+         sodipodi:role="line"
+         id="tspan54283"
+         style="font-size:5.29167px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="12.967052"
+         y="70.300812">Encryption</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:5.29167px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="12.967052"
+         y="76.915398"
+         id="tspan62450">protocol</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="62.399689"
+       y="70.300812"
+       id="text54285-0"><tspan
+         sodipodi:role="line"
+         id="tspan54283-8"
+         style="font-size:5.29167px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="62.399689"
+         y="70.300812">Signature</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:5.29167px;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="62.399689"
+         y="76.915398"
+         id="tspan70762">algorithm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="109.87102"
+       y="39.879665"
+       id="text54285-0-7"><tspan
+         sodipodi:role="line"
+         id="tspan54283-8-1"
+         style="font-size:5.29167px;stroke-width:0.264583"
+         x="109.87102"
+         y="39.879665">Bulk encryption algorithm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="182.11351"
+       y="73.668961"
+       id="text54285-0-0"><tspan
+         sodipodi:role="line"
+         id="tspan54283-8-16"
+         style="font-size:5.29167px;stroke-width:0.264583"
+         x="182.11351"
+         y="73.668961">MAC algorithm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.29167px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="5.1289215"
+       y="39.879665"
+       id="text54285-7"><tspan
+         sodipodi:role="line"
+         id="tspan54283-2"
+         style="font-size:5.29167px;stroke-width:0.264583"
+         x="5.1289215"
+         y="39.879665">Key exchange algorithm</tspan></text>
+  </g>
+</svg>

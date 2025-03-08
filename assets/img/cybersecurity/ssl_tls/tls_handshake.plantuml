@@ -1,0 +1,35 @@
+@startuml
+
+== TCP ==
+Client -> Server: SYN
+Server -> Client: SYN ACK
+Client -> Server: ACK
+
+== TLS handshake ==
+autonumber "<b>[###]"
+Client -> Server: ClientHello\n(supported TLS v., cipher suites + client random)
+Client <- Server: ServerHello\n(selected TLS v., cipher suite + server random)
+autonumber resume "<font color=grey><b>[###]"
+alt #LightBlue Anonymous case
+Client <- Server: ServerKeyExchange
+else  #LightGreen Other cases
+Client <- Server: Certificate\n(signed by CA | public key + identity info)
+end
+autonumber resume "<font color=grey><b>(### | Mutual authentication)"
+Client <- Server: CertificateRequest
+autonumber resume "<b>[###]"
+Client <- Server: ServerHelloDone
+autonumber resume "<font color=grey><b>(### | Mutual authentication)"
+Client -> Server: Certificate
+autonumber resume "<b>[###]"
+Client -> Server: ClientKeyExchange\n(depend on selected cipher suites)
+autonumber resume "<font color=grey><b>(### | Mutual authentication)"
+Client -> Server: Certificate verify\n(proof client owns the certificate)
+autonumber resume "<b>[###]"
+Client -> Server: ChangeCipherSpec
+Client -> Server: Finished\n(Client handshake finished)
+Client <- Server: ChangeCipherSpec
+Client <- Server: Finished\n(Server handshake finished)
+
+== Client and server moved to\nencrypted communication ==
+@enduml
