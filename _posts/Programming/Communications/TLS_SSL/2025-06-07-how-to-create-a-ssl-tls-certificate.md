@@ -20,7 +20,7 @@ image:
 
 On this article you will learn a basic management to know **how to create a self-signed certificates and keys**.
 
-> To learn more about SSL/TLS go to this post [How it works - SSL/TLS protocol and certificate](/_posts/Communications/SSL/2025-03-08-what-is-ssl-tls-protocol-certificate.md){:target="_blank"}
+> To learn more about SSL/TLS go to this post [How it works - SSL/TLS protocol and certificate](/_posts/Programming/Communications/TLS_SSL/2025-03-08-what-is-ssl-tls-protocol-certificate.md){:target="_blank"}
 
 ## Table of contents
 
