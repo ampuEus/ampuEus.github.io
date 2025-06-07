@@ -3,8 +3,8 @@ title: How to create a SSL/TLS certificate (with OpenSSL)
 description: Step by step guide explaining how to generate SSL/TLS certificate with OpenSSL.
 # author:
 # authors:
-date: 2025-06-07 17:34:26 +0100
-# last_modified_at: 2025-06-07 17:34:26 +0100
+date: 2025-06-07 16:34:26 +0100
+# last_modified_at: 2025-06-07 16:34:26 +0100
 categories: [Programming, Communication]
 tags: [how to, ssl, tls, cryptography, cybersecurity, web]  # TAG names should always be lowercase
 toc: true  # (Table of Contents) The default value is on _config.yml
