@@ -138,5 +138,5 @@ gantt
 
 ## Useful tools
 
-- [can-utils -> Linux-CAN / SocketCAN user space applications](github.com/linux-can/can-utils)
+- [can-utils -> Linux-CAN / SocketCAN user space applications](https://www.github.com/linux-can/can-utils)
 - [PCAN-View -> Windows Software for Displaying CAN and CAN FD Messages](https://www.peak-system.com/PCAN-View.242.0.html?L=1)
