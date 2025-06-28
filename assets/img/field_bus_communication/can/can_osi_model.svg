@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1690.1578mm"
+   height="773.70435mm"
+   viewBox="0 0 1690.158 773.70435"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="CAN_osi_model.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.1767767"
+     inkscape:cx="2950.0495"
+     inkscape:cy="2573.8687"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g65481"
+     lock-margins="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:snap-intersection-paths="true" />
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect85580"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect85071"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect83971"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect82506"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect82308"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect81837"
+       is_visible="true"
+       lpeversion="1" />
+    <rect
+       x="6402.7832"
+       y="1676.2004"
+       width="958.90741"
+       height="52.853165"
+       id="rect47316" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect190553"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       style="overflow:visible"
+       id="marker175451"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path175449" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path175176" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path175194" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker175451-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path175449-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker175451-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path175449-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker175451-9-4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path175449-3-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker175451-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path175449-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker175451-9-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path175449-3-6" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     id="layer1-5"
+     style="display:inline"
+     transform="translate(147.80269,-165.3251)">
+    <path
+       id="rect221203"
+       style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:22.8624;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+       inkscape:label="rect_CAN"
+       d="M 2682.6204,1391.5932 2495.9407,2096.062 0,2093.752 v 864.3007 l 2656.4434,2.31 H 6387.9981 V 1391.5932 Z"
+       transform="matrix(0.26458333,0,0,0.26458333,-147.80269,155.76685)"
+       sodipodi:nodetypes="cccccccc" />
+    <rect
+       style="fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="rect86471"
+       width="968.18689"
+       height="138.22253"
+       x="564.09705"
+       y="789.79504"
+       inkscape:label="rect_ISO2" />
+    <rect
+       style="fill:#a5a5a5;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill"
+       id="rect86655"
+       width="968.18689"
+       height="256.87408"
+       x="564.09705"
+       y="532.92096"
+       inkscape:label="rect_ISO1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 512.58159,819.34906 58.45299,-98.66529"
+       id="path85578"
+       inkscape:label="path_layer_delimeter"
+       inkscape:original-d="m 512.58159,819.34906 c 19.4846,-32.88818 38.96894,-65.7766 58.45299,-98.66529"
+       inkscape:path-effect="#path-effect85580" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:42.3333px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-131.60217"
+       y="751.20648"
+       id="text39765"
+       inkscape:label="text_CAN"><tspan
+         sodipodi:role="line"
+         id="tspan39763"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:42.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic';stroke-width:0.264583"
+         x="-131.60217"
+         y="751.20648">CAN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:42.3333px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="1267.3914"
+       y="874.04047"
+       id="text39765-5"
+       inkscape:label="text_ISO2"><tspan
+         sodipodi:role="line"
+         id="tspan39763-9"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:42.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic';stroke-width:0.264583"
+         x="1267.3914"
+         y="874.04047">ISO 11898-2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:42.3333px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="1268.4286"
+       y="676.49219"
+       id="text39765-5-5"
+       inkscape:label="text_ISO1"><tspan
+         sodipodi:role="line"
+         id="tspan39763-9-7"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:42.3333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold Italic';stroke-width:0.264583"
+         x="1268.4286"
+         y="676.49219">ISO 11898-1</tspan></text>
+    <g
+       id="g147107"
+       inkscape:label="layer_7"
+       transform="translate(-249.78449,-0.21542359)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:35.2778px;line-height:1.05;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="236.41112"
+         y="198.13268"
+         id="text2786-7-92"
+         inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+         inkscape:export-xdpi="45.542198"
+         inkscape:export-ydpi="45.542198"
+         inkscape:label="text_title"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:35.2778px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+           x="236.41112"
+           y="198.13268"
+           id="tspan33623">7. Application</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:35.2778px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+           x="236.41112"
+           y="235.49612"
+           id="tspan6468">(No implemented)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24.6944px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+         x="235.51437"
+         y="269.61386"
+         id="text51437-6"
+         inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+         inkscape:export-xdpi="45.542198"
+         inkscape:export-ydpi="45.542198"
+         inkscape:label="text"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6944px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.264583"
+           x="235.51437"
+           y="269.61386"
+           id="tspan137697">Network precess to application</tspan></text>
+      <rect
+         style="fill:#ebc7f1;fill-opacity:0.5;stroke:#040000;stroke-width:1.0007"
+         id="rect846-4-5-9-2-5"
+         width="533.99933"
+         height="108.96897"
+         x="228.57686"
+         y="166.04088"
+         inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+         inkscape:export-xdpi="45.542198"
+         inkscape:export-ydpi="45.542198"
+         inkscape:label="rect" />
+    </g>
+    <g
+       id="g147100"
+       inkscape:label="layer_6"
+       transform="translate(-199.83545,-0.16445923)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:35.2778px;line-height:0;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="186.75554"
+         y="308.23599"
+         id="text2786-7-4"
+         inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+         inkscape:export-xdpi="45.542198"
+         inkscape:export-ydpi="45.542198"
+         inkscape:label="text_title"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:35.2778px;line-height:1.05;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+           x="186.75554"
+           y="308.23599"
+           id="tspan20110-0">6. Presentation</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:35.2778px;line-height:1.05;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+           x="186.75554"
+           y="345.27768"
+           id="tspan23855">(<tspan
+   style="font-style:italic;line-height:1.05"
+   id="tspan23923">No implemented</tspan>)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24.6944px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+         x="185.8588"
+         y="378.64618"
+         id="text51437-7"
+         inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+         inkscape:export-xdpi="45.542198"
+         inkscape:export-ydpi="45.542198"
+         inkscape:label="text"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6944px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.264583"
+           x="185.8588"
+           y="378.64618"
+           id="tspan124853">Data representation and encryption</tspan></text>
+      <rect
+         style="fill:#ffadd5;fill-opacity:0.5;stroke:#040000;stroke-width:1.00067"
+         id="rect846-4-5-9-2"
+         width="533.99933"
+         height="108.9633"
+         x="178.57973"
+         y="275.0939"
+         inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+         inkscape:export-xdpi="45.542198"
+         inkscape:export-ydpi="45.542198"
+         inkscape:label="rect" />
+    </g>
+    <g
+       id="g147085"
+       inkscape:label="layer_5"
+       transform="translate(-149.88147,-0.11846924)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:35.2778px;line-height:1.05;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="136.61775"
+         y="418.56332"
+         id="text2786-7-7"
+         inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+         inkscape:export-xdpi="45.542198"
+         inkscape:export-ydpi="45.542198"
+         inkscape:label="text_title"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:35.2778px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+           x="136.61775"
+           y="418.56332"
+           id="tspan20110-5">5. Session</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:35.2778px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+           x="136.61775"
+           y="455.92679"
+           id="tspan72619">(<tspan
+   style="font-style:italic"
+   id="tspan19273">No implemented</tspan>)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24.6944px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+         x="137.19749"
+         y="487.58652"
+         id="text51437-1"
+         inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+         inkscape:export-xdpi="45.542198"
+         inkscape:export-ydpi="45.542198"
+         inkscape:label="text"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6944px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.264583"
+           x="137.19749"
+           y="487.58652"
+           id="tspan119873">Interhost communication</tspan></text>
+      <rect
+         style="fill:#b3afff;fill-opacity:0.5;stroke:#040000;stroke-width:1.00065"
+         id="rect846-4-5-9"
+         width="533.99933"
+         height="108.95818"
+         x="128.58229"
+         y="384.05466"
+         inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+         inkscape:export-xdpi="45.542198"
+         inkscape:export-ydpi="45.542198"
+         inkscape:label="rect" />
+    </g>
+    <g
+       id="g147073"
+       inkscape:label="layer_4"
+       transform="translate(-99.923765,-0.07623291)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:35.2778px;line-height:1.05;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="87.634079"
+         y="528.13269"
+         id="text2786-7-9"
+         inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+         inkscape:export-xdpi="45.542198"
+         inkscape:export-ydpi="45.542198"
+         inkscape:label="text_title"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:35.2778px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+           x="87.634079"
+           y="528.13269"
+           id="tspan30391">4. Transport</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:35.2778px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+           x="87.634079"
+           y="565.49615"
+           id="tspan75449">(<tspan
+   style="font-style:italic"
+   id="tspan17855">No implemented</tspan>)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24.6944px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+         x="85.893288"
+         y="596.44232"
+         id="text51437-0"
+         inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+         inkscape:export-xdpi="45.542198"
+         inkscape:export-ydpi="45.542198"
+         inkscape:label="text"><tspan
+           sodipodi:role="line"
+           id="tspan51435-64"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6944px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583"
+           x="85.893288"
+           y="596.44232"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6944px;font-family:sans-serif;-inkscape-font-specification:sans-serif"
+             id="tspan110921">End-to-end connections and reliability</tspan></tspan></text>
+      <rect
+         style="fill:#97d1f9;fill-opacity:0.497778;stroke:#040000;stroke-width:1.00084"
+         id="rect846-4-5"
+         width="533.99915"
+         height="108.99916"
+         x="78.58242"
+         y="492.86942"
+         inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+         inkscape:export-xdpi="45.542198"
+         inkscape:export-ydpi="45.542198"
+         inkscape:label="rect" />
+    </g>
+    <g
+       id="g147055"
+       inkscape:label="layer_3"
+       transform="translate(-49.999969,-6.1035156e-5)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:35.2778px;line-height:1.05;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="36.600571"
+         y="638.23602"
+         id="text2786-7-2"
+         inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+         inkscape:export-xdpi="45.542198"
+         inkscape:export-ydpi="45.542198"
+         inkscape:label="text_title"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:35.2778px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+           x="36.600571"
+           y="638.23602"
+           id="tspan20110-1">3. Network</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:35.2778px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+           x="36.600571"
+           y="675.59949"
+           id="tspan76815">(<tspan
+   style="font-style:italic"
+   id="tspan11943">No implemented</tspan>)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24.6944px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+         x="38.420822"
+         y="702.82355"
+         id="text51437-2"
+         inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+         inkscape:export-xdpi="45.542198"
+         inkscape:export-ydpi="45.542198"
+         inkscape:label="text"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6944px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.264583"
+           x="38.420822"
+           y="702.82355"
+           id="tspan106339">Path determination and logical addressing</tspan></text>
+      <rect
+         style="fill:#e7f19f;fill-opacity:0.502222;stroke:#040000;stroke-width:1.22236"
+         id="rect846-4-3"
+         width="533.77765"
+         height="108.77763"
+         x="28.730066"
+         y="601.72046"
+         inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+         inkscape:export-xdpi="45.542198"
+         inkscape:export-ydpi="45.542198"
+         inkscape:label="rect" />
+    </g>
+    <g
+       id="g66304"
+       transform="translate(-193.14686,456.89851)"
+       inkscape:label="layer_2_2">
+      <rect
+         style="fill:#ffcf9b;fill-opacity:1;stroke:#040000;stroke-width:1.06916"
+         id="rect846-4-6"
+         width="663.93085"
+         height="93.930832"
+         x="764.08258"
+         y="76.022461"
+         inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+         inkscape:export-xdpi="45.542198"
+         inkscape:export-ydpi="45.542198"
+         inkscape:label="rect" />
+      <g
+         id="g65469"
+         transform="translate(1154.656,-629.74048)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:28.2222px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="-387.01697"
+           y="731.43268"
+           id="text2786-7-8"
+           inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+           inkscape:export-xdpi="45.542198"
+           inkscape:export-ydpi="45.542198"
+           inkscape:label="text_title"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.2222px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+             x="-387.01697"
+             y="731.43268"
+             id="tspan20110-55">Logic Link Control (LLC)</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:24.6944px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+           x="-387.12625"
+           y="757.77588"
+           id="text51437-3-6"
+           inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+           inkscape:export-xdpi="45.542198"
+           inkscape:export-ydpi="45.542198"
+           inkscape:label="text"><tspan
+             sodipodi:role="line"
+             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6944px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583"
+             x="-387.12625"
+             y="757.77588"
+             id="tspan18132">Frame acceptance filtering, overload notification</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6944px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583"
+             x="-387.12625"
+             y="788.64386"
+             id="tspan66083">and recovery management</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g66295"
+       transform="translate(-193.0973,442.74005)"
+       inkscape:label="layer_2_1">
+      <rect
+         style="fill:#ffcf9b;fill-opacity:1;stroke:#040000;stroke-width:1.16801"
+         id="rect846-4-6-4"
+         width="663.83197"
+         height="93.831978"
+         x="764.1319"
+         y="184.11176"
+         inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+         inkscape:export-xdpi="45.542198"
+         inkscape:export-ydpi="45.542198"
+         inkscape:label="rect" />
+      <g
+         id="g65463"
+         transform="translate(1155.3119,-524.35307)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:28.2222px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="-388.76788"
+           y="734.08514"
+           id="text2786-7-8-3"
+           inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+           inkscape:export-xdpi="45.542198"
+           inkscape:export-ydpi="45.542198"
+           inkscape:label="text_title"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.2222px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+             x="-388.76788"
+             y="734.08514"
+             id="tspan20110-55-0">Media Access Control (MAC)</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:24.6944px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+           x="-387.7822"
+           y="760.42834"
+           id="text51437-3-6-4"
+           inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+           inkscape:export-xdpi="45.542198"
+           inkscape:export-ydpi="45.542198"
+           inkscape:label="text"><tspan
+             sodipodi:role="line"
+             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6944px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583"
+             x="-387.7822"
+             y="760.42834"
+             id="tspan71404-3-0">Data encapsulation/decapsulation, frame coding (stuff bit),</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6944px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583"
+             x="-387.7822"
+             y="791.29633"
+             id="tspan54574">error detection &amp; signalling, acknowledgement....</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g107164"
+       inkscape:label="layer_2">
+      <rect
+         style="fill:#ffcf9b;fill-opacity:1;stroke:#040000;stroke-width:1.00084"
+         id="rect846-4"
+         width="533.99915"
+         height="108.99915"
+         x="-21.417557"
+         y="710.34991"
+         inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+         inkscape:export-xdpi="45.542198"
+         inkscape:export-ydpi="45.542198"
+         inkscape:label="rect" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:35.2778px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="-12.983291"
+         y="748.23602"
+         id="text2786-7"
+         inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+         inkscape:export-xdpi="45.542198"
+         inkscape:export-ydpi="45.542198"
+         inkscape:label="text_title"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:35.2778px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+           x="-12.983291"
+           y="748.23602"
+           id="tspan20110">2. Data Link</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24.6944px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+         x="-13.092566"
+         y="781.85352"
+         id="text51437-3"
+         inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+         inkscape:export-xdpi="45.542198"
+         inkscape:export-ydpi="45.542198"
+         inkscape:label="text"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6944px;font-family:sans-serif;-inkscape-font-specification:sans-serif;stroke-width:0.264583"
+           x="-13.092566"
+           y="781.85352"
+           id="tspan71404">Physical addressing</tspan></text>
+    </g>
+    <g
+       id="g66286"
+       transform="translate(-130.52329,325.36615)"
+       inkscape:label="layer_1_3">
+      <rect
+         style="fill:#ffafaf;fill-opacity:1;stroke:#040000;stroke-width:0.888742"
+         id="rect846-3-0"
+         width="664.11127"
+         height="69.111259"
+         x="701.2785"
+         y="395.31763"
+         inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+         inkscape:export-xdpi="45.542198"
+         inkscape:export-ydpi="45.542198"
+         inkscape:label="rect" />
+      <g
+         id="g65475"
+         transform="translate(1135.032,-434.84409)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:28.2222px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="-431.25674"
+           y="858.38391"
+           id="text2786-4-3"
+           inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+           inkscape:export-xdpi="45.542198"
+           inkscape:export-ydpi="45.542198"
+           inkscape:label="text_title"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.2222px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+             x="-431.25674"
+             y="858.38391"
+             id="tspan4840-0">Physical Coding (PCS)</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:24.6944px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+           x="-430.21594"
+           y="885.67065"
+           id="text51437-15-9"
+           inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+           inkscape:export-xdpi="45.542198"
+           inkscape:export-ydpi="45.542198"
+           inkscape:label="text"><tspan
+             sodipodi:role="line"
+             id="tspan51435-5-2"
+             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6944px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583"
+             x="-430.21594"
+             y="885.67065">Bit encoding/decoding, bit timing, synchronization</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g66278"
+       transform="translate(-130.52329,285.84381)"
+       inkscape:label="layer_1_2">
+      <rect
+         style="fill:#ffafaf;fill-opacity:1;stroke:#040000;stroke-width:0.888742"
+         id="rect846-3"
+         width="664.11127"
+         height="69.111259"
+         x="701.2785"
+         y="503.95123"
+         inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+         inkscape:export-xdpi="45.542198"
+         inkscape:export-ydpi="45.542198"
+         inkscape:label="rect" />
+      <g
+         id="g65487"
+         transform="translate(1134.3863,-322.83486)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:28.2222px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="-430.61111"
+           y="858.38391"
+           id="text2786-4"
+           inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+           inkscape:export-xdpi="45.542198"
+           inkscape:export-ydpi="45.542198"
+           inkscape:label="text_title"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.2222px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+             x="-430.61111"
+             y="858.38391"
+             id="tspan4840">Physical Media Attachment (PMA)</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:24.6944px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+           x="-429.57031"
+           y="884.59912"
+           id="text51437-15"
+           inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+           inkscape:export-xdpi="45.542198"
+           inkscape:export-ydpi="45.542198"
+           inkscape:label="text"><tspan
+             sodipodi:role="line"
+             id="tspan51435-5"
+             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6944px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583"
+             x="-429.57031"
+             y="884.59912">Driver/receiver characteristics</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g66270"
+       transform="translate(-138.85532,227.14996)"
+       inkscape:label="layer_1_1">
+      <rect
+         style="fill:#ffafaf;fill-opacity:1;stroke:#040000;stroke-width:0.888742"
+         id="rect846-3-2"
+         width="664.11127"
+         height="69.111259"
+         x="709.61041"
+         y="631.75635"
+         inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+         inkscape:export-xdpi="45.542198"
+         inkscape:export-ydpi="45.542198"
+         inkscape:label="rect" />
+      <g
+         id="g65481"
+         transform="translate(1142.5983,-195.02974)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:28.2222px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="-430.49121"
+           y="858.38391"
+           id="text2786-4-1"
+           inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+           inkscape:export-xdpi="45.542198"
+           inkscape:export-ydpi="45.542198"
+           inkscape:label="text_title"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28.2222px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+             x="-430.49121"
+             y="858.38391"
+             id="tspan4840-6">Physical Media Dependent (PMD)</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:24.6944px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+           x="-430.21594"
+           y="884.45123"
+           id="text51437-15-4"
+           inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+           inkscape:export-xdpi="45.542198"
+           inkscape:export-ydpi="45.542198"
+           inkscape:label="text"><tspan
+             sodipodi:role="line"
+             id="tspan51435-5-8"
+             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6944px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583"
+             x="-430.21594"
+             y="884.45123">Connectors</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g18411"
+       inkscape:label="layer_1"
+       transform="translate(49.965212,-6.1035156e-5)"
+       inkscape:groupmode="layer">
+      <rect
+         style="fill:#ffafaf;fill-opacity:1;stroke:#040000;stroke-width:1.00084"
+         id="rect846"
+         width="533.99915"
+         height="108.99916"
+         x="-71.417641"
+         y="819.01849"
+         inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+         inkscape:export-xdpi="45.542198"
+         inkscape:export-ydpi="45.542198"
+         inkscape:label="rect" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:35.2778px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="-65.759354"
+         y="858.23602"
+         id="text2786"
+         inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+         inkscape:export-xdpi="45.542198"
+         inkscape:export-ydpi="45.542198"
+         inkscape:label="text_title"><tspan
+           sodipodi:role="line"
+           id="tspan2784"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:35.2778px;font-family:Arial;-inkscape-font-specification:'Arial Bold';stroke-width:0.264583"
+           x="-65.759354"
+           y="858.23602">1. Physical</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24.6944px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+         x="-65.364182"
+         y="890.52209"
+         id="text51437"
+         inkscape:export-filename="C:\Users\david.ampurua\Desktop\OSI_Model.png"
+         inkscape:export-xdpi="45.542198"
+         inkscape:export-ydpi="45.542198"
+         inkscape:label="text"><tspan
+           sodipodi:role="line"
+           id="tspan51435"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6944px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';stroke-width:0.264583"
+           x="-65.364182"
+           y="890.52209"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6944px;font-family:sans-serif;-inkscape-font-specification:sans-serif"
+             id="tspan64389">Media, signal and binary transmission</tspan></tspan></text>
+    </g>
+  </g>
+</svg>
