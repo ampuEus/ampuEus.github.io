@@ -1441,7 +1441,7 @@ CiA develops and publishes technical documents. Specifications contain functiona
 
 ## Useful tools
 
-- [can-utils -> Linux-CAN / SocketCAN user space applications](github.com/linux-can/can-utils){:target="_blank"}
+- [can-utils -> Linux-CAN / SocketCAN user space applications](https://www.github.com/linux-can/can-utils){:target="_blank"}
 - [PCAN-View -> Windows Software for Displaying CAN and CAN FD Messages](https://www.peak-system.com/PCAN-View.242.0.html?L=1){:target="_blank"}
 - [CANeds - Editor for creating and checking EDS files](https://www.vector.com/int/en/download/caneds/){:target="_blank"}
 - [CANopen Object Dictionary Editor](https://github.com/CANopenNode/CANopenEditor){:target="_blank"}
