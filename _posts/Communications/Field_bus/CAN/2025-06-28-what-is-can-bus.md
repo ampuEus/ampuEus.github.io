@@ -130,13 +130,13 @@ gantt
 
 ## References
 
-- [CAN Bus Explained - A Simple Intro](https://www.csselectronics.com/pages/can-bus-simple-intro-tutorial)
-- [History of CAN technology by CiA](https://www.can-cia.org/can-knowledge/history-of-can-technology)
-- [Controller Area Network classic (CAN CC)](https://www.can-cia.org/can-knowledge/can-cc)
-- [Introduction to CAN by Vector](https://elearning.vector.com/mod/page/view.php?id=333)
-- <https://en.wikipedia.org/wiki/CAN_bus>
+- [CAN Bus Explained - A Simple Intro](https://www.csselectronics.com/pages/can-bus-simple-intro-tutorial){:target="_blank"}
+- [History of CAN technology by CiA](https://www.can-cia.org/can-knowledge/history-of-can-technology){:target="_blank"}
+- [Controller Area Network classic (CAN CC)](https://www.can-cia.org/can-knowledge/can-cc){:target="_blank"}
+- [Introduction to CAN by Vector](https://elearning.vector.com/mod/page/view.php?id=333){:target="_blank"}
+- <https://en.wikipedia.org/wiki/CAN_bus>{:target="_blank"}
 
 ## Useful tools
 
-- [can-utils -> Linux-CAN / SocketCAN user space applications](https://www.github.com/linux-can/can-utils)
-- [PCAN-View -> Windows Software for Displaying CAN and CAN FD Messages](https://www.peak-system.com/PCAN-View.242.0.html?L=1)
+- [can-utils -> Linux-CAN / SocketCAN user space applications](https://www.github.com/linux-can/can-utils){:target="_blank"}
+- [PCAN-View -> Windows Software for Displaying CAN and CAN FD Messages](https://www.peak-system.com/PCAN-View.242.0.html?L=1){:target="_blank"}
