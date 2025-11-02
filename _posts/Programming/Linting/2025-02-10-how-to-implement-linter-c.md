@@ -6,7 +6,7 @@ description: Guide explaining how to implement a linter and a code formatter on 
 date: 2025-02-10 20:10:00 +0100
 # last_modified_at: 2025-02-10 20:10:06 +0100
 categories: [Programming]
-tags: [how to, linter, style, c, c++]  # TAG names should always be lowercase
+tags: [how to, linter, style, c, cpp]  # TAG names should always be lowercase
 toc: true  # (Table of Contents) The default value is on _config.yml
 pin: false
 math: false
