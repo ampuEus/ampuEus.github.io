@@ -1104,7 +1104,7 @@ Each entry is described by:
 </details>
 
 <details>
-<summary>See Access attributes for data objects</summary>
+<summary>See Access attributes (or Transmission type) for data objects</summary>
 <table><thead>
   <tr>
     <th>Attribute</th>
@@ -1232,7 +1232,7 @@ An INI file format, acting as the 'template' for the OD of a device and contains
 <details>
 <summary>See an example of an EDS's one RPDO definition</summary>
 
-```ini
+<pre>
 [...]
 
 [1402]
@@ -1384,7 +1384,7 @@ AccessType=rww
 PDOMapping=1
 
 [...]
-```
+</pre>
 </details>
 
 ## Cable connectors (by CiA 303-1)
