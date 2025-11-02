@@ -5,8 +5,8 @@ description: Some notes about OS filesystems
 # authors:
 date: 2025-11-02 16:24:00 +0200
 # last_modified_at: 2025-11-01 16:24:00 +0200
-categories: [Programming]
-tags: [cheatsheet, filesystem]  # TAG names should always be lowercase
+categories: [Programming, Filesystem]
+tags: [cheatsheet]  # TAG names should always be lowercase
 toc: true  # (Table of Contents) The default value is on _config.yml
 pin: false
 math: false
