@@ -3,8 +3,8 @@ title: What is RAID technology
 description:
 # author:
 # authors:
-date: 2025-11-01 18:48:00 +0200
-# last_modified_at: 2025-11-01 18:48:00 +0200
+date: 2025-11-16 11:40:00 +0200
+# last_modified_at: 2025-11-16 11:40:00 +0200
 categories: [Programming, Filesystem]
 tags: [what is, raid]  # TAG names should always be lowercase
 toc: true  # (Table of Contents) The default value is on _config.yml
@@ -55,8 +55,8 @@ Requires a minimum of 2 drives to implement.
 
 The data is subdivided (*striped*) and written on the data disks.
 
-![RAID 0 diagram](/assets/img/filesystem/raid/raid0_light.svg){: .light }
-![RAID 0 diagram](/assets/img/filesystem/raid/raid0_dark.svg){: .dark }
+![RAID 0 diagram](/assets/img/filesystem/raid/raid0_light.svg){: .dark }
+![RAID 0 diagram](/assets/img/filesystem/raid/raid0_dark.svg){: .light }
 
 | Advantages                                       | Disadvantages                                                       | Best Uses                                |
 |--------------------------------------------------|---------------------------------------------------------------------|------------------------------------------|
@@ -69,8 +69,8 @@ The data is subdivided (*striped*) and written on the data disks.
 
 Requires a minimum of 2 drives to implement.
 
-![RAID 1 diagram](/assets/img/filesystem/raid/raid1_light.svg){: .light }
-![RAID 1 diagram](/assets/img/filesystem/raid/raid1_dark.svg){: .dark }
+![RAID 1 diagram](/assets/img/filesystem/raid/raid1_light.svg){: .dark }
+![RAID 1 diagram](/assets/img/filesystem/raid/raid1_dark.svg){: .light }
 
 | Advantages                                   | Disadvantages              | Best Uses                                        |
 |----------------------------------------------|----------------------------|--------------------------------------------------|
@@ -82,8 +82,8 @@ Requires a minimum of 2 drives to implement.
 
 Each data bit is stored across multiple data disks, while its Hamming Code error correction (ECC) is saved on separate ECC disks. During reading, the ECC checks for accuracy and can fix errors from a single faulty disk.
 
-![RAID 2 diagram](/assets/img/filesystem/raid/raid2_light.svg){: .light }
-![RAID 2 diagram](/assets/img/filesystem/raid/raid2_dark.svg){: .dark }
+![RAID 2 diagram](/assets/img/filesystem/raid/raid2_light.svg){: .dark }
+![RAID 2 diagram](/assets/img/filesystem/raid/raid2_dark.svg){: .light }
 
 | Advantages                                    | Disadvantages                                               |
 |-----------------------------------------------|-------------------------------------------------------------|
@@ -98,8 +98,8 @@ Requires at least 3 drives to implement.
 
 The data block is subdivided (*striped*) and written on the data disks. Then Stripe parity is created during write operations, saved on a parity disk, and used during reads to verify or recover data.
 
-![RAID 3 diagram](/assets/img/filesystem/raid/raid3_light.svg){: .light }
-![RAID 3 diagram](/assets/img/filesystem/raid/raid3_dark.svg){: .dark }
+![RAID 3 diagram](/assets/img/filesystem/raid/raid3_light.svg){: .dark }
+![RAID 3 diagram](/assets/img/filesystem/raid/raid3_dark.svg){: .light }
 
 | Advantages                              | Disadvantages                               | Best Uses                                 |
 |-----------------------------------------|---------------------------------------------|-------------------------------------------|
@@ -113,8 +113,8 @@ Require a minimum of 3 drives to implement.
 
 Each data block is stored on a separate disk. Parity for blocks in the same position (rank) is created during writes, saved on a parity disk, and used during reads to verify or recover data.
 
-![RAID 4 diagram](/assets/img/filesystem/raid/raid4_light.svg){: .light }
-![RAID 4 diagram](/assets/img/filesystem/raid/raid4_dark.svg){: .dark }
+![RAID 4 diagram](/assets/img/filesystem/raid/raid4_light.svg){: .dark }
+![RAID 4 diagram](/assets/img/filesystem/raid/raid4_dark.svg){: .light }
 
 | Advantages                                 | Disadvantages                                              |
 |--------------------------------------------|------------------------------------------------------------|
@@ -129,8 +129,8 @@ Require a minimum of 3 drives to implement.
 
 RAID 5 uses block-level striping with distributed parity. Parity data is spread across all drives, allowing the system to keep working even if one drive fails. Read and write operations are shared across multiple disks for better performance.
 
-![RAID 5 diagram](/assets/img/filesystem/raid/raid5_light.svg){: .light }
-![RAID 5 diagram](/assets/img/filesystem/raid/raid5_dark.svg){: .dark }
+![RAID 5 diagram](/assets/img/filesystem/raid/raid5_light.svg){: .dark }
+![RAID 5 diagram](/assets/img/filesystem/raid/raid5_dark.svg){: .light }
 
 | Advantages                                 | Disadvantages                              | Best Uses                                     |
 |--------------------------------------------|--------------------------------------------|-----------------------------------------------|
@@ -145,8 +145,8 @@ Requires a minimum of 4 drives to implement.
 
 To protect against two simultaneous disk failures, RAID 6 uses two separate parity calculations, each based on a different algorithm. This dual-parity setup ensures stronger fault tolerance.
 
-![RAID 6 diagram](/assets/img/filesystem/raid/raid6_light.svg){: .light }
-![RAID 6 diagram](/assets/img/filesystem/raid/raid6_dark.svg){: .dark }
+![RAID 6 diagram](/assets/img/filesystem/raid/raid6_light.svg){: .dark }
+![RAID 6 diagram](/assets/img/filesystem/raid/raid6_dark.svg){: .light }
 
 | Advantages                                         | Disadvantages                                          | Best Uses                                  |
 |----------------------------------------------------|--------------------------------------------------------|--------------------------------------------|
@@ -161,22 +161,22 @@ To protect against two simultaneous disk failures, RAID 6 uses two separate pari
 
 Requires a minimum of 4 drives to implement.
 
-![RAID 10 diagram](/assets/img/filesystem/raid/raid10_light.svg){: .light }
-![RAID 10 diagram](/assets/img/filesystem/raid/raid10_dark.svg){: .dark }
+![RAID 10 diagram](/assets/img/filesystem/raid/raid10_light.svg){: .dark }
+![RAID 10 diagram](/assets/img/filesystem/raid/raid10_dark.svg){: .light }
 
 ### RAID 50 (5+0): Parity Across stripes
 
 Requires a minimum of 6 drives to implement.
 
-![RAID 50 diagram](/assets/img/filesystem/raid/raid50_light.svg){: .light }
-![RAID 50 diagram](/assets/img/filesystem/raid/raid50_dark.svg){: .dark }
+![RAID 50 diagram](/assets/img/filesystem/raid/raid50_light.svg){: .dark }
+![RAID 50 diagram](/assets/img/filesystem/raid/raid50_dark.svg){: .light }
 
 ### RAID 0+1: Striped mirrors
 
 Requires a minimum of 4 drives to implement.
 
-![RAID 0 + 1 diagram](/assets/img/filesystem/raid/raid01_light.svg){: .light }
-![RAID 0 + 1 diagram](/assets/img/filesystem/raid/raid01_dark.svg){: .dark }
+![RAID 0 + 1 diagram](/assets/img/filesystem/raid/raid01_light.svg){: .dark }
+![RAID 0 + 1 diagram](/assets/img/filesystem/raid/raid01_dark.svg){: .light }
 
 ## Useful tools
 
