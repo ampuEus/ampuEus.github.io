@@ -153,4 +153,4 @@ And an overview of Europe railway electrification map with different supply volt
 - [openrailwaymap](https://openrailwaymap.org/){:target="_blank"}
 - <http://www.railway-technical.com/infrastructure/electric-traction-power.html>{:target="_blank"}
 - EN 50163 (2007), EN 50163: Railway applications. Supply voltages of traction systems, IET
-- **TODO change to actual section --> ** **Plaquin, B. (n.d.). 4.1 Railway gauges.** In Rolling Stock in the Railway System (2020th ed., Vol. 1, pp. 260–273). essay, Trackomedia.
+- **8.1.2.1 Performances of the traction system.** In Rolling Stock in the Railway System (2020th ed., Vol. 3, pp. 22–23). essay, Trackomedia.
