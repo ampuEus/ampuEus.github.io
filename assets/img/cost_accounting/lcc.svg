@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="93.024078mm"
+   height="78.023682mm"
+   viewBox="0 0 93.024078 78.023681"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="lcc.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="175.71604"
+     inkscape:cy="147.43176"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5"
+     inkscape:snap-grids="true"
+     inkscape:snap-page="false"
+     inkscape:showpageshadow="false"
+     inkscape:deskcolor="#d1d1d1"
+     labelstyle="default"
+     inkscape:clip-to-page="false" />
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect6"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,3.7608867,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect5"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,4.6278407,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect4"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,4.0665677,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect3"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,4.8383155,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect1"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,1.1162423,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2"
+       is_visible="true"
+       lpeversion="1" />
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="1863.4081"
+       height="1055.5214"
+       patternTransform="translate(-3914.633,317.87988)"
+       id="pattern27117">
+      <g
+         id="g26840-7"
+         inkscape:label="disposal"
+         transform="matrix(3.7795276,0,0,3.7795276,310.46541,241.84381)">
+        <rect
+           style="fill:#ffd66b;fill-opacity:1;stroke:#000000;stroke-width:0.987353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           id="rect23942-9"
+           width="94.01265"
+           height="29.012648"
+           x="-25.353834"
+           y="149.69174"
+           rx="3.5882654"
+           ry="3.5381243" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="-12.198185"
+           y="166.94972"
+           id="text12700-2"><tspan
+             sodipodi:role="line"
+             id="tspan12698-2"
+             style="stroke-width:0.264583"
+             x="-12.198185"
+             y="166.94972">Disposal Cost</tspan></text>
+      </g>
+      <g
+         id="g26835-5"
+         inkscape:label="support"
+         transform="matrix(3.7795276,0,0,3.7795276,900.2224,-287.26895)">
+        <rect
+           style="fill:#80d8c3;fill-opacity:1;stroke:#000000;stroke-width:0.987353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           id="rect23942-7-59"
+           width="94.01265"
+           height="29.012648"
+           x="147.14435"
+           y="208.51433"
+           rx="3.5882654"
+           ry="3.5381243" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="161.64937"
+           y="225.58182"
+           id="text11186-4"><tspan
+             sodipodi:role="line"
+             id="tspan11184-9"
+             style="stroke-width:0.264583"
+             x="161.64937"
+             y="225.58182">Support Cost</tspan></text>
+      </g>
+      <g
+         id="g26830-0"
+         inkscape:label="fail"
+         transform="matrix(3.7795276,0,0,3.7795276,84.051982,340.04724)">
+        <rect
+           style="fill:#80d8c3;fill-opacity:1;stroke:#000000;stroke-width:0.987353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           id="rect23942-7-5-8"
+           width="94.01265"
+           height="29.012648"
+           x="194.77982"
+           y="159.79622"
+           rx="3.5882654"
+           ry="3.5381243" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="212.24287"
+           y="178.27129"
+           id="text10654-3"><tspan
+             sodipodi:role="line"
+             id="tspan10652-3"
+             style="stroke-width:0.264583"
+             x="212.24287"
+             y="178.27129">Failure Cost</tspan></text>
+      </g>
+      <g
+         id="g26825-2"
+         inkscape:label="maint"
+         transform="matrix(3.7795276,0,0,3.7795276,403.21313,419.15559)">
+        <rect
+           style="fill:#80d8c3;fill-opacity:1;stroke:#000000;stroke-width:1.03739;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           id="rect23942-7-7-9"
+           width="103.96261"
+           height="28.962608"
+           x="232.42209"
+           y="93.059402"
+           rx="3.9680345"
+           ry="3.532022" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="239.30797"
+           y="111.38773"
+           id="text9924-5"><tspan
+             sodipodi:role="line"
+             id="tspan9922-2"
+             style="stroke-width:0.264583"
+             x="239.30797"
+             y="111.38773">Maintenance Cost</tspan></text>
+      </g>
+      <g
+         id="g26820-2"
+         inkscape:label="env"
+         transform="matrix(3.7795276,0,0,3.7795276,695.0955,34.525496)">
+        <rect
+           style="fill:#4da8da;fill-opacity:1;stroke:#000000;stroke-width:0.985473;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           id="rect23942-7-7-8-8-0"
+           width="104.01453"
+           height="29.014526"
+           x="204.60878"
+           y="34.932587"
+           rx="3.574379"
+           ry="3.5383534" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="207.58893"
+           y="53.408588"
+           id="text12102-4"><tspan
+             sodipodi:role="line"
+             id="tspan12100-1"
+             style="stroke-width:0.264583"
+             x="207.58893"
+             y="53.408588">Environmental Cost</tspan></text>
+      </g>
+      <g
+         id="g26815-0"
+         inkscape:label="op"
+         transform="matrix(3.7795276,0,0,3.7795276,441.40333,97.266565)">
+        <rect
+           style="fill:#4da8da;fill-opacity:1;stroke:#000000;stroke-width:0.987353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           id="rect23942-7-7-8-1"
+           width="94.01265"
+           height="29.012648"
+           x="124.85637"
+           y="-24.184938"
+           rx="3.5882654"
+           ry="3.5381243" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="134.12265"
+           y="-7.0486646"
+           id="text9282-2"><tspan
+             sodipodi:role="line"
+             id="tspan9280-1"
+             style="stroke-width:0.264583"
+             x="134.12265"
+             y="-7.0486646">Operation Cost</tspan></text>
+      </g>
+      <g
+         id="g26847-3"
+         inkscape:label="commissioning"
+         transform="matrix(3.7795276,0,0,3.7795276,831.48916,-126.419)">
+        <rect
+           style="fill:#7eb37d;fill-opacity:1;stroke:#000000;stroke-width:1.14173;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           id="rect23942-7-7-8-6-2-0"
+           width="93.858276"
+           height="38.858269"
+           x="-121.18309"
+           y="34.019226"
+           rx="3.5823731"
+           ry="4.7388086" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="-74.349197"
+           y="45.616718"
+           id="text5890-6"><tspan
+             sodipodi:role="line"
+             id="tspan5888-8"
+             style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+             x="-74.349197"
+             y="45.616718">Installation Cost</tspan><tspan
+             sodipodi:role="line"
+             style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+             x="-74.349197"
+             y="56.20002"
+             id="tspan5894-5">&amp;</tspan><tspan
+             sodipodi:role="line"
+             style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+             x="-74.349197"
+             y="66.783318"
+             id="tspan5892-9">Commissioning</tspan></text>
+      </g>
+      <g
+         id="g26852-5"
+         inkscape:label="init"
+         transform="matrix(3.7795276,0,0,3.7795276,122.24222,413.69984)">
+        <rect
+           style="fill:#7eb37d;fill-opacity:1;stroke:#000000;stroke-width:0.987353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+           id="rect23942-7-7-8-6-0"
+           width="94.01265"
+           height="29.012648"
+           x="-31.849577"
+           y="-4.0409536"
+           rx="3.5882654"
+           ry="3.5381243" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="-11.343833"
+           y="14.434108"
+           id="text2854-4"><tspan
+             sodipodi:role="line"
+             id="tspan2852-3"
+             style="stroke-width:0.264583"
+             x="-11.343833"
+             y="14.434108">Initial Cost</tspan></text>
+      </g>
+    </pattern>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2-1"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow-3"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8-4" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2-1-1"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow-3-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8-4-9" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2-1-1-3"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow-3-8"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8-4-6" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2-1-1-5"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow-3-86"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8-4-0" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2-1-1-2"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow-3-6"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8-4-5" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2-1-1-0"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow-3-0"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8-4-61" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2-1-1-38"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       style="overflow:visible"
+       id="RoundedArrow-4"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Rounded arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8-6" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2-1-0"
+       is_visible="true"
+       lpeversion="1" />
+  </defs>
+  <path
+     style="fill:#bdd8bc;fill-opacity:1;stroke:none;stroke-width:0.457589;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+     id="rect3"
+     width="46.512268"
+     height="39.012032"
+     x="99.416885"
+     y="23.947348"
+     rx="0"
+     ry="0"
+     inkscape:path-effect="#path-effect6"
+     sodipodi:type="rect"
+     d="m 99.416885,23.947348 h 42.751385 a 3.7608867,3.7608867 45 0 1 3.76088,3.760886 V 62.959379 H 99.416885 Z"
+     transform="translate(-52.904617,-23.947348)" />
+  <path
+     style="fill:#80c2e5;fill-opacity:1;stroke:none;stroke-width:0.457589;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+     id="rect3-4"
+     width="46.512268"
+     height="39.012032"
+     x="99.416885"
+     y="62.959377"
+     rx="0"
+     ry="0"
+     inkscape:path-effect="#path-effect5"
+     sodipodi:type="rect"
+     d="m 99.416885,62.959377 h 46.512265 v 34.384191 a 4.6278407,4.6278407 135 0 1 -4.62784,4.627842 H 99.416885 Z"
+     transform="translate(-52.904617,-23.947348)" />
+  <path
+     style="fill:#d5f2eb;fill-opacity:1;stroke:none;stroke-width:0.457589;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+     id="rect3-0"
+     width="46.512268"
+     height="39.012032"
+     x="52.904617"
+     y="62.959381"
+     rx="0"
+     ry="0"
+     inkscape:path-effect="#path-effect4"
+     sodipodi:type="rect"
+     d="m 52.904617,62.959381 h 46.512268 v 39.012029 h -42.4457 a 4.0665677,4.0665677 45 0 1 -4.066568,-4.066565 z"
+     transform="translate(-52.904617,-23.947348)" />
+  <path
+     style="fill:#ffedbc;fill-opacity:1;stroke:none;stroke-width:0.457589;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+     id="rect3-6"
+     width="46.512268"
+     height="39.012032"
+     x="52.904617"
+     y="23.947351"
+     rx="0"
+     ry="0"
+     inkscape:path-effect="#path-effect3"
+     sodipodi:type="rect"
+     d="M 57.742933,23.947351 H 99.416885 V 62.959383 H 52.904617 V 28.785667 a 4.8383155,4.8383155 135 0 1 4.838316,-4.838316 z"
+     transform="translate(-52.904617,-23.947348)" />
+  <g
+     id="g26840"
+     inkscape:label="disposal"
+     transform="matrix(0.22879472,0,0,0.22879472,26.863619,-19.092476)">
+    <rect
+       style="fill:#ffd66b;fill-opacity:1;stroke:#000000;stroke-width:0.987353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect23942"
+       width="94.01265"
+       height="29.012648"
+       x="-25.353834"
+       y="149.69174"
+       rx="3.5882654"
+       ry="3.5381243" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="21.255623"
+       y="161.65807"
+       id="text12700"><tspan
+         sodipodi:role="line"
+         id="tspan12698"
+         style="line-height:1;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="21.255621"
+         y="161.65807">Removal</tspan><tspan
+         sodipodi:role="line"
+         style="line-height:1;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="21.255625"
+         y="172.24136"
+         id="tspan14">Disposal Cost</tspan></text>
+  </g>
+  <g
+     id="g26840-1"
+     inkscape:label="disposal"
+     transform="matrix(0.22879472,0,0,0.22879472,9.3654054,-8.6059922)">
+    <rect
+       style="fill:#ffd66b;fill-opacity:1;stroke:#000000;stroke-width:0.987353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect23942-2"
+       width="94.01265"
+       height="29.012648"
+       x="-25.353834"
+       y="149.69174"
+       rx="3.5882654"
+       ry="3.5381243" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="21.255623"
+       y="168.16681"
+       id="text12700-0"><tspan
+         sodipodi:role="line"
+         style="line-height:1;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="21.255625"
+         y="168.16681"
+         id="tspan14-1">Residual Cost</tspan></text>
+  </g>
+  <g
+     id="g26830"
+     inkscape:label="fail"
+     transform="matrix(0.22879472,0,0,0.22879472,-40.707071,7.2689668)">
+    <rect
+       style="fill:#80d8c3;fill-opacity:1;stroke:#000000;stroke-width:0.987353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect23942-7-5"
+       width="94.01265"
+       height="29.012648"
+       x="194.77982"
+       y="159.79622"
+       rx="3.5882654"
+       ry="3.5381243" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="212.24287"
+       y="178.27129"
+       id="text10654"><tspan
+         sodipodi:role="line"
+         id="tspan10652"
+         style="stroke-width:0.264583"
+         x="212.24287"
+         y="178.27129">Failure Cost</tspan></text>
+  </g>
+  <g
+     id="g26830-7"
+     inkscape:label="fail"
+     transform="matrix(0.22879472,0,0,0.22879472,-22.876051,17.921738)">
+    <rect
+       style="fill:#80d8c3;fill-opacity:1;stroke:#000000;stroke-width:0.987353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect23942-7-5-6"
+       width="94.01265"
+       height="29.012648"
+       x="194.77982"
+       y="159.79622"
+       rx="3.5882654"
+       ry="3.5381243" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="212.24287"
+       y="178.27129"
+       id="text10654-36"><tspan
+         sodipodi:role="line"
+         id="tspan10652-1"
+         style="stroke-width:0.264583"
+         x="212.24287"
+         y="178.27129">Repair Cost</tspan></text>
+  </g>
+  <g
+     id="g26825"
+     inkscape:label="maint"
+     transform="matrix(0.22879472,0,0,0.22879472,-4.1220996,40.492171)">
+    <rect
+       style="fill:#4da8da;fill-opacity:1;stroke:#000000;stroke-width:1.03739;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect23942-7-7"
+       width="103.96261"
+       height="28.962608"
+       x="232.42209"
+       y="93.059402"
+       rx="3.9680345"
+       ry="3.532022" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="239.30797"
+       y="111.38773"
+       id="text9924"><tspan
+         sodipodi:role="line"
+         id="tspan9922"
+         style="stroke-width:0.264583"
+         x="239.30797"
+         y="111.38773">Maintenance Cost</tspan></text>
+  </g>
+  <g
+     id="g26820"
+     inkscape:label="env"
+     transform="matrix(0.22879472,0,0,0.22879472,17.771641,43.649367)">
+    <rect
+       style="fill:#4da8da;fill-opacity:1;stroke:#000000;stroke-width:0.985473;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect23942-7-7-8-8"
+       width="104.01453"
+       height="29.014526"
+       x="204.60878"
+       y="34.932587"
+       rx="3.574379"
+       ry="3.5383534" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="207.58893"
+       y="53.408588"
+       id="text12102"><tspan
+         sodipodi:role="line"
+         id="tspan12100"
+         style="stroke-width:0.264583"
+         x="207.58893"
+         y="53.408588">Environmental Cost</tspan></text>
+  </g>
+  <g
+     id="g26815"
+     inkscape:label="op"
+     transform="matrix(0.22879472,0,0,0.22879472,40.485962,46.525618)">
+    <rect
+       style="fill:#4da8da;fill-opacity:1;stroke:#000000;stroke-width:0.987353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect23942-7-7-8"
+       width="94.01265"
+       height="29.012648"
+       x="124.85637"
+       y="-24.184938"
+       rx="3.5882654"
+       ry="3.5381243" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="134.12265"
+       y="-7.0486646"
+       id="text9282"><tspan
+         sodipodi:role="line"
+         id="tspan9280"
+         style="stroke-width:0.264583"
+         x="134.12265"
+         y="-7.0486646">Operation Cost</tspan></text>
+  </g>
+  <g
+     id="g26847"
+     inkscape:label="commissioning"
+     transform="matrix(0.22879472,0,0,0.22879472,97.626613,13.95152)">
+    <rect
+       style="fill:#7eb37d;fill-opacity:1;stroke:#000000;stroke-width:1.14173;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect23942-7-7-8-6-2"
+       width="93.858276"
+       height="38.858269"
+       x="-121.18309"
+       y="34.019226"
+       rx="3.5823731"
+       ry="4.7388086" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-74.349197"
+       y="45.616718"
+       id="text5890"><tspan
+         sodipodi:role="line"
+         id="tspan5888"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="-74.349197"
+         y="45.616718">Installation Cost</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="-74.349197"
+         y="56.20002"
+         id="tspan5894">&amp;</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="-74.349197"
+         y="66.783318"
+         id="tspan5892">Commissioning</tspan></text>
+  </g>
+  <g
+     id="g26852"
+     inkscape:label="init"
+     transform="matrix(0.22879472,0,0,0.22879472,55.946963,10.412842)">
+    <rect
+       style="fill:#7eb37d;fill-opacity:1;stroke:#000000;stroke-width:0.987353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect23942-7-7-8-6"
+       width="94.01265"
+       height="29.012648"
+       x="-31.849577"
+       y="-4.0409536"
+       rx="3.5882654"
+       ry="3.5381243" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-11.343833"
+       y="14.434108"
+       id="text2854"><tspan
+         sodipodi:role="line"
+         id="tspan2852"
+         style="stroke-width:0.264583"
+         x="-11.343833"
+         y="14.434108">Initial Cost</tspan></text>
+  </g>
+  <g
+     id="g26810"
+     inkscape:label="lcc"
+     transform="matrix(0.22879472,0,0,0.22879472,29.566576,18.51601)">
+    <rect
+       style="fill:#f5f5f5;fill-opacity:1;stroke:#000000;stroke-width:0.905876;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect23610"
+       width="109.09412"
+       height="29.094126"
+       x="19.793156"
+       y="77.115143"
+       rx="14.876472"
+       ry="14.547063"
+       inkscape:label="rect" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="74.065048"
+       y="89.582588"
+       id="text1478"
+       inkscape:label="text"><tspan
+         sodipodi:role="line"
+         id="tspan1476"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="74.065048"
+         y="89.582588">Life Cycle Costs</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="74.065048"
+         y="100.16589"
+         id="tspan1480">(LCC)</tspan></text>
+  </g>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#RoundedArrow)"
+     d="M 25.053278,149.99301 54.332991,138.7759"
+     id="path2"
+     inkscape:path-effect="#path-effect2"
+     inkscape:original-d="M 25.053278,149.99301 54.332991,138.7759"
+     transform="matrix(0.22879472,0,0,0.22879472,20.275183,10.062726)"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#RoundedArrow)"
+     d="m 6.3384798,149.01536 40.5383452,28.3081"
+     id="path2-3"
+     inkscape:path-effect="#path-effect2-1"
+     inkscape:original-d="m 6.3384798,149.01536 40.5383452,28.3081"
+     transform="matrix(0.22879472,0,0,0.22879472,55.418703,10.062726)"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#RoundedArrow-4)"
+     d="m 13.289049,144.51793 30.930206,7.04754"
+     id="path2-3-1"
+     inkscape:path-effect="#path-effect2-1-0"
+     inkscape:original-d="m 13.289049,144.51793 30.930206,7.04754"
+     transform="matrix(0.22879472,0,0,0.22879472,58.033693,8.0045988)"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#RoundedArrow-3)"
+     d="M 27.683529,152.28564 72.35474,168.46646"
+     id="path2-3-3"
+     transform="matrix(0.16178236,-0.16178224,0.16178224,0.16178236,30.453449,15.206927)"
+     sodipodi:nodetypes="cc"
+     inkscape:original-d="M 27.683529,152.28564 72.35474,168.46646"
+     inkscape:path-effect="#path-effect2-1-1" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#RoundedArrow-3-7)"
+     d="m -46.508543,189.23689 -16.042026,32.46947"
+     id="path2-3-3-9"
+     transform="matrix(0,0.22879472,-0.22879472,0,76.000343,46.866297)"
+     sodipodi:nodetypes="cc"
+     inkscape:original-d="m -46.508543,189.23689 -16.042026,32.46947"
+     inkscape:path-effect="#path-effect2-1-1-3" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#RoundedArrow-3-8)"
+     d="M 1.1757688,134.79784 59.17605,147.95479"
+     id="path2-3-3-2"
+     transform="matrix(-0.16178227,-0.16178233,0.16178233,-0.16178227,20.351599,56.088292)"
+     sodipodi:nodetypes="cc"
+     inkscape:original-d="M 1.1757688,134.79784 59.17605,147.95479"
+     inkscape:path-effect="#path-effect2-1-1-5" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#RoundedArrow-3-86)"
+     d="M 2.9171523,121.58511 52.116197,115.14517"
+     id="path2-3-3-8"
+     transform="matrix(-0.1617823,0.1617823,-0.1617823,-0.1617823,62.697013,63.76876)"
+     sodipodi:nodetypes="cc"
+     inkscape:original-d="M 2.9171523,121.58511 52.116197,115.14517"
+     inkscape:path-effect="#path-effect2-1-1-2" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#RoundedArrow-3-6)"
+     d="m -32.243492,140.26123 77.648088,36.19173"
+     id="path2-3-3-0"
+     transform="matrix(0,-0.22190275,0.22879472,0,17.150113,26.929321)"
+     sodipodi:nodetypes="cc"
+     inkscape:original-d="m -32.243492,140.26123 77.648088,36.19173"
+     inkscape:path-effect="#path-effect2-1-1-0" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#RoundedArrow-3-0)"
+     d="M -3.6454927,138.48398 71.888308,160.96519"
+     id="path2-3-3-3"
+     transform="matrix(0.1617823,0.1617823,-0.1617823,0.1617823,72.798853,22.88737)"
+     sodipodi:nodetypes="cc"
+     inkscape:original-d="M -3.6454927,138.48398 71.888308,160.96519"
+     inkscape:path-effect="#path-effect2-1-1-38" />
+  <text
+     xml:space="preserve"
+     style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.264583"
+     x="14.520348"
+     y="-6.5351634"
+     id="text11"><tspan
+       sodipodi:role="line"
+       id="tspan11"
+       style="stroke-width:0.264583"
+       x="14.520348"
+       y="-6.5351634" /><tspan
+       sodipodi:role="line"
+       style="font-size:5.29167px;stroke-width:0.264583"
+       id="tspan12"
+       x="14.520348"
+       y="6.6939611">End of life</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.264583"
+     x="74.805351"
+     y="-6.683332"
+     id="text11-7"><tspan
+       sodipodi:role="line"
+       id="tspan11-8"
+       style="stroke-width:0.264583"
+       x="74.805351"
+       y="-6.683332" /><tspan
+       sodipodi:role="line"
+       style="font-size:5.29167px;stroke-width:0.264583"
+       id="tspan12-8"
+       x="74.805351"
+       y="6.5457926">Construction</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.264583"
+     x="78.22377"
+     y="60.879097"
+     id="text11-7-9"><tspan
+       sodipodi:role="line"
+       id="tspan11-8-1"
+       style="stroke-width:0.264583"
+       x="78.22377"
+       y="60.879097" /><tspan
+       sodipodi:role="line"
+       style="font-size:5.29167px;stroke-width:0.264583"
+       id="tspan12-8-3"
+       x="78.22377"
+       y="74.108223">Operation</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.264583"
+     x="10.522491"
+     y="62.096191"
+     id="text11-7-9-9"><tspan
+       sodipodi:role="line"
+       id="tspan11-8-1-8"
+       style="stroke-width:0.264583"
+       x="10.522491"
+       y="62.096191" /><tspan
+       sodipodi:role="line"
+       style="font-size:5.29167px;stroke-width:0.264583"
+       id="tspan12-8-3-4"
+       x="10.522491"
+       y="75.325317">Failure</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.264583"
+     x="68.803711"
+     y="3.9661946"
+     id="text13"><tspan
+       sodipodi:role="line"
+       id="tspan13"
+       style="stroke-width:0.264583"
+       x="68.803711"
+       y="3.9661946" /></text>
+</svg>
