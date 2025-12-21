@@ -16,7 +16,7 @@ timezone: Europe/Madrid
 
 title: Ampurua's notes # the main title
 
-tagline: Programming, Power engineering, Industrial communications and Railway # it will display as the sub-title
+tagline: I primarily write to force my own understanding, and remember things # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   David Ampurua's personal blog mainly covering programming, power engineering and system communications.
