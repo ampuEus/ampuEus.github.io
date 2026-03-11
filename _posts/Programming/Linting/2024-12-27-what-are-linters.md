@@ -15,7 +15,7 @@ comments: false
 image:
   path: /assets/img/others/pc_code-ia.webp
   # lqip:
-  # alt:
+  alt: Image generated with IA
 ---
 
 > This article often interprets the term *linter* in a wide sense, to include resources for SAST (Static Application Security Testing), SCA (Source Code Analysis), memory management validators, code formatters, and style guides.
