@@ -5,7 +5,7 @@ description: Guide explaining how SSL/TLS protocols works and what they are.
 # authors:
 date: 2025-03-08 18:12:07 +0100
 # last_modified_at: 2025-03-08 18:12:17 +0100
-categories: [Communication protocol, Programming]
+categories: [Communication, Programming]
 tags: [what is, tls, ssl, cryptography, cybersecurity, web]  # TAG names should always be lowercase
 toc: true  # (Table of Contents) The default value is on _config.yml
 pin: false
