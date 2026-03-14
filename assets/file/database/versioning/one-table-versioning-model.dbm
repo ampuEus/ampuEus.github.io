@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+CAUTION: Do not modify this file unless you know what you are doing.
+ Unexpected results may occur if the code is changed deliberately.
+-->
+<dbmodel pgmodeler-ver="1.1.4" use-changelog="false" author="ampueus" max-obj-count="4"
+	 last-position="-295,0" last-zoom="0.85" scene-rect="-348,0,1918.8,1076.8"
+	 default-schema="public" default-owner="postgres"
+	 layers="Default layer"
+	 active-layers="0"
+	 layer-name-colors="#000000"
+	 layer-rect-colors="#b4b4b4"
+	 show-layer-names="false" show-layer-rects="false">
+<database name="history-demo" is-template="false" allow-conns="true">
+	<comment> <![CDATA[A demo database to implement a basic element versioning]]> </comment>
+</database>
+
+<schema name="public" layers="0" fill-color="#e1e1e1" name-color="#000000" sql-disabled="true">
+</schema>
+
+<table name="product_inventory" layers="0" collapse-mode="2" max-obj-count="6" z-value="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<comment> <![CDATA[Inventory main table]]> </comment>
+	<position x="120" y="380"/>
+	<column name="id" not-null="true"
+	 identity-type="ALWAYS">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="name" not-null="true">
+		<type name="varchar" length="100"/>
+	</column>
+	<column name="quantity" not-null="true">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="valid_from" not-null="true" default-value="CURRENT_TIMESTAMP">
+		<type name="timestamp" length="0"/>
+	</column>
+	<column name="valid_to" default-value="NULL">
+		<type name="timestamp" length="0"/>
+	</column>
+	<constraint name="product_inventory_pk" type="pk-constr" table="public.product_inventory">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+	<initial-data>
+<![CDATA["id";"name";"quantity";"valid_from";"valid_to";"id_maintenance_tasks"
+"";"Laptop Pro 15'";"111";"2025-10-09 08:00:13.454066";"";"1"
+"";"Car";"22";"2025-10-09 07:59:56.57585";"";"3"
+]]>
+	</initial-data>
+</table>
+
+<function name="log_product_inventory_changes"
+		window-func="false"
+		returns-setof="false"
+		behavior-type="CALLED ON NULL INPUT"
+		function-type="VOLATILE"
+		security-type="SECURITY INVOKER"
+		parallel-type="PARALLEL UNSAFE"
+		execution-cost="1"
+		row-amount="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<comment> <![CDATA[Trigger function for versioning products]]> </comment>
+	<language name="plpgsql"/>
+	<return-type>
+	<type name="trigger" length="0"/>
+	</return-type>
+	<definition> <![CDATA[BEGIN
+    INSERT INTO public.product_inventory_history (
+        id,
+		name,
+		quantity,
+        valid_from,
+		valid_to
+    )
+    VALUES (
+        OLD.id,
+        OLD.name,
+        OLD.quantity,
+        OLD.valid_from,
+        CURRENT_TIMESTAMP
+    );
+
+    IF TG_OP = 'UPDATE' THEN
+        NEW.valid_from := CURRENT_TIMESTAMP;
+        NEW.valid_to := NULL;
+        RETURN NEW;
+    END IF;
+
+    RETURN OLD;
+END;]]> </definition>
+</function>
+
+<trigger name="product_inventory_update" firing-type="BEFORE" per-line="true" constraint="false"
+	 ins-event="false" del-event="false" upd-event="true" trunc-event="false"
+	 table="public.product_inventory">
+		<comment> <![CDATA[Triggers for UPDATE action]]> </comment>
+		<function signature="public.log_product_inventory_changes()"/>
+</trigger>
+
+<trigger name="product_inventory_delete" firing-type="BEFORE" per-line="true" constraint="false"
+	 ins-event="false" del-event="true" upd-event="false" trunc-event="false"
+	 table="public.product_inventory">
+		<comment> <![CDATA[Triggers for DELETE action]]> </comment>
+		<function signature="public.log_product_inventory_changes()"/>
+</trigger>
+
+<table name="product_inventory_history" layers="0" collapse-mode="2" max-obj-count="6" z-value="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="820" y="400"/>
+</table>
+
+<function name="snapshot_inventory_at"
+		window-func="false"
+		returns-setof="false"
+		behavior-type="CALLED ON NULL INPUT"
+		function-type="VOLATILE"
+		security-type="SECURITY INVOKER"
+		parallel-type="PARALLEL RESTRICTED"
+		execution-cost="1"
+		row-amount="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<comment> <![CDATA[Get a view of the database on a specific time]]> </comment>
+	<language name="sql"/>
+	<return-type>
+	<parameter name="product_id">
+		<type name="integer" length="0"/>
+	</parameter>
+	<parameter name="product_name">
+		<type name="varchar" length="0"/>
+	</parameter>
+	<parameter name="quantity">
+		<type name="integer" length="0"/>
+	</parameter>
+	<parameter name="snapshot_time">
+		<type name="timestamp" length="0"/>
+	</parameter>
+	</return-type>
+	<parameter name="target_ts">
+		<type name="timestamp" length="0"/>
+	</parameter>
+	<definition> <![CDATA[-- Product state at the given timestamp
+WITH product AS (
+    SELECT *
+    FROM public.product_inventory
+    WHERE target_ts BETWEEN valid_from AND COALESCE(valid_to, CURRENT_TIMESTAMP)
+
+    UNION ALL
+
+    SELECT *
+    FROM public.product_inventory_history
+    WHERE target_ts BETWEEN valid_from AND valid_to
+)
+
+-- Output table snapshots
+SELECT
+    product.id,
+    product.name,
+    product.quantity,
+    target_ts
+FROM product
+ORDER BY product.id;]]> </definition>
+</function>
+
+<relationship name="product_inventory_history_copies_product_inventory" type="reldep" layers="0"
+	 pk-pattern="{dt}_pk"
+	 custom-color="#dd6b7b"
+	 src-table="public.product_inventory_history"
+	 dst-table="public.product_inventory"/>
+
+</dbmodel>

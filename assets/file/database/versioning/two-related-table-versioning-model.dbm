@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+CAUTION: Do not modify this file unless you know what you are doing.
+ Unexpected results may occur if the code is changed deliberately.
+-->
+<dbmodel pgmodeler-ver="1.1.4" use-changelog="false" author="ampueus" max-obj-count="4"
+	 last-position="0,0" last-zoom="0.85" scene-rect="-348,0,1918.8,1076.8"
+	 default-schema="public" default-owner="postgres"
+	 layers="Default layer"
+	 active-layers="0"
+	 layer-name-colors="#000000"
+	 layer-rect-colors="#b4b4b4"
+	 show-layer-names="false" show-layer-rects="false">
+<database name="history-demo" is-template="false" allow-conns="true">
+	<comment> <![CDATA[A demo database to implement a basic element versioning]]> </comment>
+</database>
+
+<schema name="public" layers="0" fill-color="#e1e1e1" name-color="#000000" sql-disabled="true">
+</schema>
+
+<table name="maintenance_tasks" layers="0" collapse-mode="2" max-obj-count="6" z-value="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<comment> <![CDATA[Maintenance tasks main table]]> </comment>
+	<position x="-320" y="740"/>
+	<column name="id" not-null="true"
+	 identity-type="ALWAYS">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="name" not-null="true">
+		<type name="varchar" length="100"/>
+	</column>
+	<column name="description" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<column name="valid_from" not-null="true" default-value="CURRENT_TIMESTAMP">
+		<type name="timestamp" length="0"/>
+	</column>
+	<column name="valid_to" default-value="NULL">
+		<type name="timestamp" length="0"/>
+	</column>
+	<constraint name="maintenance_tasks_pk" type="pk-constr" table="public.maintenance_tasks">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+	<initial-data>
+<![CDATA["id";"name";"description";"valid_from";"valid_to"
+"";"Firmware Update";"Update device firmware";"2025-10-09 07:59:50.633567";""
+"";"Filter Replacement";"Replace internal filter";"2025-10-09 07:59:50.633567";""
+"";"Battery Check";"Inspect battery health and run capacity test";"2025-10-09 08:00:31.75471";""
+]]>
+	</initial-data>
+</table>
+
+<table name="product_inventory" layers="0" collapse-mode="2" max-obj-count="7" z-value="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<comment> <![CDATA[Inventory main table]]> </comment>
+	<position x="-320" y="280"/>
+	<column name="id" not-null="true"
+	 identity-type="ALWAYS">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="name" not-null="true">
+		<type name="varchar" length="100"/>
+	</column>
+	<column name="quantity" not-null="true">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="valid_from" not-null="true" default-value="CURRENT_TIMESTAMP">
+		<type name="timestamp" length="0"/>
+	</column>
+	<column name="valid_to" default-value="NULL">
+		<type name="timestamp" length="0"/>
+	</column>
+	<constraint name="product_inventory_pk" type="pk-constr" table="public.product_inventory">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+
+	<customidxs object-type="column">
+		<object name="id_maintenance_tasks" index="5"/>
+	</customidxs>
+	<customidxs object-type="constraint">
+		<object name="maintenance_tasks_fk" index="1"/>
+	</customidxs>	<initial-data>
+<![CDATA["id";"name";"quantity";"valid_from";"valid_to";"id_maintenance_tasks"
+"";"Laptop Pro 15'";"111";"2025-10-09 08:00:13.454066";"";"1"
+"";"Car";"22";"2025-10-09 07:59:56.57585";"";"3"
+]]>
+	</initial-data>
+</table>
+
+<function name="log_maintenance_task_changes"
+		window-func="false"
+		returns-setof="false"
+		behavior-type="CALLED ON NULL INPUT"
+		function-type="VOLATILE"
+		security-type="SECURITY INVOKER"
+		parallel-type="PARALLEL UNSAFE"
+		execution-cost="1"
+		row-amount="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<comment> <![CDATA[Trigger function for versioning maintenance tasks]]> </comment>
+	<language name="plpgsql"/>
+	<return-type>
+	<type name="trigger" length="0"/>
+	</return-type>
+	<definition> <![CDATA[BEGIN
+    INSERT INTO public.maintenance_tasks_history (
+        id,
+		name,
+		description,
+        valid_from,
+		valid_to
+    )
+    VALUES (
+        OLD.id,
+        OLD.name,
+        OLD.description,
+        OLD.valid_from,
+        CURRENT_TIMESTAMP
+    );
+
+    IF TG_OP = 'UPDATE' THEN
+        NEW.valid_from := CURRENT_TIMESTAMP;
+        NEW.valid_to := NULL;
+        RETURN NEW;
+    END IF;
+
+    RETURN OLD;
+END;]]> </definition>
+</function>
+
+<function name="log_product_inventory_changes"
+		window-func="false"
+		returns-setof="false"
+		behavior-type="CALLED ON NULL INPUT"
+		function-type="VOLATILE"
+		security-type="SECURITY INVOKER"
+		parallel-type="PARALLEL UNSAFE"
+		execution-cost="1"
+		row-amount="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<comment> <![CDATA[Trigger function for versioning products]]> </comment>
+	<language name="plpgsql"/>
+	<return-type>
+	<type name="trigger" length="0"/>
+	</return-type>
+	<definition> <![CDATA[BEGIN
+    INSERT INTO public.product_inventory_history (
+        id,
+		name,
+		quantity,
+		id_maintenance_tasks,
+        valid_from,
+		valid_to
+    )
+    VALUES (
+        OLD.id,
+        OLD.name,
+        OLD.quantity,
+        OLD.id_maintenance_tasks,
+        OLD.valid_from,
+        CURRENT_TIMESTAMP
+    );
+
+    IF TG_OP = 'UPDATE' THEN
+        NEW.valid_from := CURRENT_TIMESTAMP;
+        NEW.valid_to := NULL;
+        RETURN NEW;
+    END IF;
+
+    RETURN OLD;
+END;]]> </definition>
+</function>
+
+<trigger name="product_inventory_update" firing-type="BEFORE" per-line="true" constraint="false"
+	 ins-event="false" del-event="false" upd-event="true" trunc-event="false"
+	 table="public.product_inventory">
+		<comment> <![CDATA[Triggers for UPDATE action]]> </comment>
+		<function signature="public.log_product_inventory_changes()"/>
+</trigger>
+
+<trigger name="product_inventory_delete" firing-type="BEFORE" per-line="true" constraint="false"
+	 ins-event="false" del-event="true" upd-event="false" trunc-event="false"
+	 table="public.product_inventory">
+		<comment> <![CDATA[Triggers for DELETE action]]> </comment>
+		<function signature="public.log_product_inventory_changes()"/>
+</trigger>
+
+<trigger name="maintenance_tasks_update" firing-type="BEFORE" per-line="true" constraint="false"
+	 ins-event="false" del-event="false" upd-event="true" trunc-event="false"
+	 table="public.maintenance_tasks">
+		<comment> <![CDATA[Triggers for UPDATE action]]> </comment>
+		<function signature="public.log_maintenance_task_changes()"/>
+</trigger>
+
+<trigger name="maintenance_tasks_delete" firing-type="BEFORE" per-line="false" constraint="false"
+	 ins-event="false" del-event="true" upd-event="false" trunc-event="false"
+	 table="public.maintenance_tasks">
+		<comment> <![CDATA[Triggers for DELETE action]]> </comment>
+		<function signature="public.log_maintenance_task_changes()"/>
+</trigger>
+
+<table name="product_inventory_history" layers="0" collapse-mode="2" max-obj-count="7" z-value="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="360" y="320"/>
+</table>
+
+<table name="maintenance_tasks_history" layers="0" collapse-mode="2" max-obj-count="6" z-value="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<position x="400" y="760"/>
+</table>
+
+<function name="snapshot_inventory_tasks_at"
+		window-func="false"
+		returns-setof="false"
+		behavior-type="CALLED ON NULL INPUT"
+		function-type="VOLATILE"
+		security-type="SECURITY INVOKER"
+		parallel-type="PARALLEL RESTRICTED"
+		execution-cost="1"
+		row-amount="0">
+	<schema name="public"/>
+	<role name="postgres"/>
+	<comment> <![CDATA[Get a view of the database on a specific time]]> </comment>
+	<language name="sql"/>
+	<return-type>
+	<parameter name="product_id">
+		<type name="integer" length="0"/>
+	</parameter>
+	<parameter name="product_name">
+		<type name="varchar" length="0"/>
+	</parameter>
+	<parameter name="quantity">
+		<type name="integer" length="0"/>
+	</parameter>
+	<parameter name="task_name">
+		<type name="varchar" length="0"/>
+	</parameter>
+	<parameter name="task_description">
+		<type name="text" length="0"/>
+	</parameter>
+	<parameter name="snapshot_time">
+		<type name="timestamp" length="0"/>
+	</parameter>
+	</return-type>
+	<parameter name="target_ts">
+		<type name="timestamp" length="0"/>
+	</parameter>
+	<definition> <![CDATA[-- Product state at the given timestamp
+WITH product AS (
+    SELECT *
+    FROM public.product_inventory
+    WHERE target_ts BETWEEN valid_from AND COALESCE(valid_to, CURRENT_TIMESTAMP)
+
+    UNION ALL
+
+    SELECT *
+    FROM public.product_inventory_history
+    WHERE target_ts BETWEEN valid_from AND valid_to
+),
+
+-- Task state at the given timestamp
+task AS (
+    SELECT *
+    FROM public.maintenance_tasks
+    WHERE target_ts BETWEEN valid_from AND COALESCE(valid_to, CURRENT_TIMESTAMP)
+
+    UNION ALL
+
+    SELECT *
+    FROM public.maintenance_tasks_history
+    WHERE target_ts BETWEEN valid_from AND valid_to
+)
+
+-- Join snapshots
+SELECT
+    p.id,
+    p.name,
+    p.quantity,
+    t.name,
+    t.description,
+    target_ts
+FROM product p
+JOIN task t
+    ON p.id_maintenance_tasks = t.id
+ORDER BY p.id;]]> </definition>
+</function>
+
+<relationship name="maintenance_tasks_has_many_product_inventory" type="rel1n" layers="0"
+	 src-col-pattern="{sc}_{st}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#974473"
+	 src-table="public.maintenance_tasks"
+	 dst-table="public.product_inventory"
+	 src-required="false" dst-required="false">
+	<label ref-type="name-label">
+		<position x="0.186274" y="-30.353"/>
+	</label>
+</relationship>
+
+<relationship name="maintenance_tasks_history_copies_maintenance_tasks" type="reldep" layers="0"
+	 pk-pattern="{dt}_pk"
+	 custom-color="#8c0a15"
+	 src-table="public.maintenance_tasks_history"
+	 dst-table="public.maintenance_tasks"/>
+
+<relationship name="product_inventory_history_copies_product_inventory" type="reldep" layers="0"
+	 pk-pattern="{dt}_pk"
+	 custom-color="#dd6b7b"
+	 src-table="public.product_inventory_history"
+	 dst-table="public.product_inventory"/>
+
+</dbmodel>
